@@ -1,0 +1,30 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+#calc{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+input{
+    padding: 20px;
+    width: 35%; 
+    background-color:rgba(169, 169, 169, 0.349);
+    border: none; 
+}
+
+.btn button{
+    padding: 15px 20px;
+    margin: 10px;
+    font-size: 20px;
+} */

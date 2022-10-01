@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div id="calc">
+        
+        <div class="output">
+            <input type="text" name="output-screen" id="output" onclick="output()">   
+        </div>
+        
+        <div class="btn">
+            <button onclick="ac()">AC</button>
+            <button onclick="divide()">/</button>
+            <button onclick="multiply()">x</button>
+            <button onclick="bracketopen()">(</button>
+            <button onclick="bracketclose()">)</button>
+            <button onclick="negation()">~</button>
+        </div>
+        
+        <div class="btn">
+            <button onclick="seven()">7</button>
+            <button onclick="eight()">8</button>
+            <button onclick="nine()">9</button>
+            <button onclick="subtract()">-</button>
+        </div>
+
+        <div class="btn">
+            <button onclick="four()">4</button>
+            <button onclick="five()">5</button>
+            <button onclick="six()">6</button>
+            <button onclick="add()">+</button>
+        </div>
+
+        <div class="btn">
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="three()">3</button>
+            <button onclick="modulus()">%</button>
+        </div>
+
+        <div class="btn">
+            <button onclick="zero()">0</button>
+            <button onclick="decimal()">.</button>
+            <button onclick="equalsign()">=</button>
+            <button onclick="deletesign()">del</button>
+        </div>
+    
+    
+    
+    
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
