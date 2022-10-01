@@ -84,8 +84,8 @@ function deletesign() {
     output.value += "del"
 }
 
-//function equalsign() {
-   // let output = document.getElementById("output");
-   // let result = eval(output.value); 
-  //  output.value += "="
-//}
+function equalsign() {
+let output = document.getElementById("output");
+   let result = eval(output.value); 
+   output.value += "="
+}
