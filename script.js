@@ -44,16 +44,9 @@ function ac() {
     output.value += "ac"
 } 
 
-function bracketopen() {
-    output.value += "("
-}
 
-function bracketclose() {
-    ouput.value += ")"
-}
-
-function negation() {
-    output.value += "~"
+function exponential() {
+    output.value += "**"
 }
 
 function divide() {
@@ -87,5 +80,19 @@ function deletesign() {
 function equalsign() {
 let output = document.getElementById("output");
    let result = eval(output.value); 
-   output.value += "="
+   output.value = result
 }
+
+//document.querySelector(ac).addEventListener("click", ()=>{
+    //document.querySelector("#output").value = " "
+//});
+
+//const del = () =>{
+
+
+
+//document.querySelector().addEventListener("click", ()=>{
+    //document.querySelector("#output").value = " "
+//});
+
+//}
